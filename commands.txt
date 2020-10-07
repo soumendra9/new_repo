@@ -1,0 +1,7 @@
+ 409  git init
+  410  git add .
+  411  git commit -m "initial version"
+  412  git remote add origin   https://github.com/soumendra9/new_repo.git
+curl -u 'soumendra9' https://api.github.com/user/repos -d '{"name":"new_repo.git"}'
+git push origin master
+
